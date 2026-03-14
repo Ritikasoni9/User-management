@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "User Management",
+    "slug": "expo-ts-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "androidNavigationBar": {
+      "backgroundColor": "#050507",
+      "barStyle": "light-content"
+    },
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3B49DF"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.wonga.expotsapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "43ea574d-6482-4890-9eb6-a617c413c870"
+      }
+    },
+    "owner": "ritikasoni"
+  }
+}
